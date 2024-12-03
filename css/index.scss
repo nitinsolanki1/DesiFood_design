@@ -1,0 +1,44 @@
+.page1{
+    height: 80vh;
+    overflow-y: hidden;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 100px;
+}
+.order{
+    width: 100%;
+    margin-top: 10px;
+}
+.botderblack{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.cardpage-title{
+    border-bottom: 1px solid #ababab;
+    padding-bottom: 13px;
+    margin: 0px 5px;
+    border-radius: 15px;
+}
+
+.form{
+    height: 47vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #cccccc1c;
+
+    input{
+        width: 69%;
+        border-radius: 6px;
+        border: none;
+        margin: 10px 0px;
+    }
+    
+}
